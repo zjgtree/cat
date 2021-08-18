@@ -25,6 +25,13 @@
       ]
     },
     {
+      "key": "ysgc_spider",
+      "name": "影视工厂",
+      "type": 2,
+      "api": "Scrawl4",
+      "playUrl": ""
+    },
+    {
       "key": "afys_spider",
       "name": "阿房影视",
       "type": 2,
