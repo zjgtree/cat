@@ -929,6 +929,10 @@
     }
   ],
   "parses": [
+     {
+      "name": "暮光解析",
+      "url": "https://www.mgtv.com.muguangys.com/jiexi.php?url="
+    },
     {
       "name": "纯净解析",
       "url": "https://z1.m1907.cn/?jx="
