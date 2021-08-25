@@ -25,6 +25,40 @@
       ]
     },
    {
+      "key": "afys_spider",
+      "name": "阿房影视",
+      "type": 2,
+      "api": "7gxke5P9eFZoVV",
+      "playUrl": "",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "jpys_spider",
+      "name": "极品影视",
+      "type": 2,
+      "api": "xZk2ejNzP8Gape",
+      "playUrl": "",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "mgys_spider",
+      "name": "暮光影视",
+      "type": 2,
+      "api": "vnEF7qPNzi6C6C",
+      "playUrl": "",
+      "quickSearch": 0
+    },
+    {
+      "key": "ysgc_spider",
+      "name": "影视工厂",
+      "type": 2,
+      "api": "XXjMEvL4jg66rQ",
+      "playUrl": "",
+      "quickSearch": 0
+    },
+    {
       "key": "hgys_spider",
       "name": "HG影视",
       "type": 2,
@@ -41,40 +75,6 @@
       "playUrl": "",
       "quickSearch": 0,
       "filterable": 1
-    },
- {
-      "key": "afys_spider",
-      "name": "阿房影视",
-      "type": 2,
-      "api": "Scrawl1",
-      "playUrl": "",
-      "searchable": 0,
-      "filterable": 1
-    },
-    {
-      "key": "jpys_spider",
-      "name": "极品影视",
-      "type": 2,
-      "api": "Scrawl2",
-      "playUrl": "",
-      "searchable": 0,
-      "filterable": 1
-    },
-    {
-      "key": "mgys_spider",
-      "name": "暮光影视",
-      "type": 2,
-      "api": "Scrawl3",
-      "playUrl": "",
-      "quickSearch": 0
-    },
-    {
-      "key": "ysgc_spider",
-      "name": "影视工厂",
-      "type": 2,
-      "api": "Scrawl4",
-      "playUrl": "",
-      "quickSearch": 0
     },
     {
       "key": "柚子资源",
