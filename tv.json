@@ -1,7 +1,8 @@
+################config begin################ <-- remove this line
 {
   "sites": [
-  {
-    "key": "快播云",
+    {
+      "key": "快播云",
       "name": "快播云",
       "type": 0,
       "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml/",
@@ -24,7 +25,7 @@
         "纪录片"
       ]
     },
-   {
+    {
       "key": "afys_spider",
       "name": "阿房影视",
       "type": 2,
@@ -77,6 +78,33 @@
       "filterable": 1
     },
     {
+      "key": "zjm_spider",
+      "name": "追剧喵",
+      "type": 2,
+      "api": "KaxKyHhd9ErA9n",
+      "playUrl": "",
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "xysgc_spider",
+      "name": "新影视工厂",
+      "type": 2,
+      "api": "Gy35wr8J2YUrtC",
+      "playUrl": "",
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "kby_spider",
+      "name": "恐怖鸭",
+      "type": 2,
+      "api": "ZdZYGB9BcfXR6W",
+      "playUrl": "",
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
       "key": "柚子资源",
       "name": "柚子资源",
       "type": 0,
@@ -104,11 +132,11 @@
       ]
     },
     {
-      "key": "乐多资源",
-      "name": "乐多资源",
+      "key": "乐多采集",
+      "name": "乐多采集",
       "type": 0,
-      "api": "http://www.leduozy.com/inc/api.php",
-      "playUrl": "https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid=",
+      "api": "https://cj.leduocaiji.com/inc/api.php",
+      "playUrl": "https://api.xxctzy.com/1.php?vid=",
       "categories": [
         "综艺",
         "动作片",
@@ -125,7 +153,7 @@
         "台剧",
         "韩剧",
         "其他动漫",
-        "伦理",
+        "体育赛事",
         "海外剧",
         "纪录片",
         "国产动漫",
@@ -135,40 +163,6 @@
         "篮球",
         "足球",
         "网球"
-      ]
-    },
-    {
-      "key": "穿梭资源",
-      "name": "穿梭资源",
-      "type": 0,
-      "api": "http://ok.888hyk.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "犯罪片",
-        "战争片",
-        "动画电影",
-        "剧情片",
-        "记录片",
-        "国产剧",
-        "香港剧",
-        "日本剧",
-        "欧美剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日本动漫",
-        "欧美动漫",
-        "海外剧",
-        "台湾剧",
-        "韩国剧",
-        "歌曲MV"
       ]
     },
     {
@@ -234,29 +228,6 @@
         "日本动漫",
         "欧美动漫",
         "其他动漫"
-      ]
-    },
-    {
-      "key": "7k资源",
-      "name": "7k资源",
-      "type": 0,
-      "api": "https://zy.7kjx.com/cjapi.php",
-      "playUrl": "",
-      "categories": [
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "其他片"
       ]
     },
     {
@@ -369,60 +340,46 @@
         "泰国剧",
         "伦理片"
       ]
-    },
-    {
-      "key": "365影视",
-      "name": "365影视",
-      "type": 0,
-      "api": "http://video.365tx.com/api.php/provide/vod/at/xml",
-      "playUrl": ""
-    },
-    {
-      "key": "影派资源",
-      "name": "影派资源",
-      "type": 0,
-      "api": "https://v.dtjos.com/api.php/provide/vod/at/xml",
-      "playUrl": ""
     }
   ],
   "lives": [
     {
-      "group": "台湾",
+      "group": "自定义",
       "channels": [
         {
-          "name": "TVBS新聞",
+          "name": "安徽经视",
           "urls": [
-            "http://seb.sason.top/sc/tvbsxw_fhd.m3u8"
+            "http://zbbf2.ahtv.cn/live/750.m3u8"
           ]
         },
         {
-          "name": "三立新聞",
+          "name": "安徽综艺",
           "urls": [
-            "http://seb.sason.top/sc/sllive_fhd.m3u8"
+            "http://zbbf2.ahtv.cn/live/758.m3u8"
           ]
         },
         {
-          "name": "中天新聞",
+          "name": "安徽影视",
           "urls": [
-            "http://seb.sason.top/sc/ztxw_fhd.m3u8"
+            "http://zbbf2.ahtv.cn/live/756.m3u8"
           ]
         },
         {
-          "name": "東森新聞",
+          "name": "安徽科教",
           "urls": [
-            "http://seb.sason.top/sc/dsxw_fhd.m3u8"
+            "http://zbbf2.ahtv.cn/live/754.m3u8"
           ]
         },
         {
-          "name": "華視新聞資訊",
+          "name": "安徽公共",
           "urls": [
-            "http://seb.sason.top/sc/hsxw_fhd.m3u8"
+            "http://zbbf2.ahtv.cn/live/752.m3u8"
           ]
         },
         {
-          "name": "壹電視新聞台",
+          "name": "安徽人物",
           "urls": [
-            "http://stream.nexttv.com.tw/n001/hd/live.m3u8"
+            "http://zbbf2.ahtv.cn/live/da9.m3u8"
           ]
         }
       ]
@@ -946,10 +903,37 @@
       ]
     }
   ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili"
+  ],
   "parses": [
-     {
+    {
       "name": "暮光解析",
-      "url": "https://www.mgtv.com.muguangys.com/jiexi.php?url="
+      "url": "https://muguang.mgtv.com.muguangys.com/jiexi.php?url="
+    },
+    {
+      "name": "Parwix解析",
+      "url": "https://vip.parwix.com:4433/player/?url="
+    },
+    {
+      "name": "Json.M3u8",
+      "url": "https://json.m3u8.tv:7788/json.php?url=",
+      "type": 1
+    },
+    {
+      "name": "Json.VodJX",
+      "url": "https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=",
+      "type": 1
     },
     {
       "name": "纯净解析",
@@ -958,10 +942,6 @@
     {
       "name": "高速接口1",
       "url": "https://jsap.attakids.com/?url="
-    },
-    {
-      "name": "B站解析1",
-      "url": "https://vip.parwix.com:4433/player/?url="
     },
     {
       "name": "B站解析2",
@@ -978,10 +958,6 @@
     {
       "name": "BL",
       "url": "https://vip.bljiex.com/?v="
-    },
-    {
-      "name": "乐多资源",
-      "url": "https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid="
     },
     {
       "name": "ccyjjd",
@@ -1131,18 +1107,6 @@
       "name": "8090",
       "url": "https://www.8090g.cn/?url="
     }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "wasu"
   ],
   "ijk": [
     {
@@ -1366,3 +1330,4 @@
     "cms.qdwght.com"
   ]
 }
+################config end################ <-- remove this line
