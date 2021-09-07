@@ -60,6 +60,24 @@
       "quickSearch": 0
     },
     {
+      "key": "auete_spider",
+      "name": "Auete影视",
+      "type": 2,
+      "api": "eboTY5qAokEemZ",
+      "playUrl": "",
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "adys_spider",
+      "name": "爱迪影视",
+      "type": 2,
+      "api": "48YdXbyTkTe55r",
+      "playUrl": "",
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
       "key": "hgys_spider",
       "name": "HG影视",
       "type": 2,
