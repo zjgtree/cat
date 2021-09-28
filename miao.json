@@ -1,5 +1,5 @@
-"spider": "http://wp.95318.cf/custom_spider.jar?raw=true",
- 
+"spider":"http://wp.95318.cf/custom_spider.jar?raw=true",
+  "sites":
 {
   "key": "csp_Aidi",
   "name": "爱迪",
