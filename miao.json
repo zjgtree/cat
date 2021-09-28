@@ -1,6 +1,6 @@
 ###
 {
-"spider": "https://ghproxy.com/https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
+"spider": "http://101.34.31.87:1024/custom_spider.jar?raw=true",
   "sites": [
 {
   "key": "csp_Aidi",
